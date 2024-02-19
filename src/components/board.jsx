@@ -1,4 +1,4 @@
-import styles from '../styles/board.mdoule.css';
+import styles from '../styles/board.module.css';
 
 const Board = () => {
 
