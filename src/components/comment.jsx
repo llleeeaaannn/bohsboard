@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom';
+import styles from '../styles/comment.mdoule.css';
 
 const Comment = () => {
 
   return (
-    <div>
+    <div className={styles.div}>
 
     </div>
   )

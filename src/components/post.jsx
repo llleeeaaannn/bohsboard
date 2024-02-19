@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom';
+import styles from '../styles/post.mdoule.css';
 
 const Post = () => {
 
   return (
-    <div>
+    <div className={styles.div}>
 
     </div>
   )
