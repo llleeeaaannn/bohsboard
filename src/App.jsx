@@ -1,7 +1,10 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
+export const AppContext = React.createContext();
+
 function App() {
+
   const [count, setCount] = useState(0)
 
   return (
