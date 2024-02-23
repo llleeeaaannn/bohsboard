@@ -1,4 +1,4 @@
-import styles from '../styles/comment.mdoule.css';
+import styles from '../../styles/comment.mdoule.css';
 
 const Comment = () => {
 

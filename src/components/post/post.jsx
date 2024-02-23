@@ -1,4 +1,4 @@
-import styles from '../styles/post.mdoule.css';
+import styles from '../../styles/post.mdoule.css';
 
 const Post = () => {
 
