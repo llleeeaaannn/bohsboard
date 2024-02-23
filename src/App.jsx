@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Forum from './components/forum/forum.jsx';
+import './styles/app.css';
 
 export const AppContext = React.createContext();
 

@@ -6,9 +6,9 @@
   flex-direction: row;
   align-content: center;
   justify-content: center;
-  grid-gap: 1.5rem;
+  grid-gap: 1.25rem;
   border: 1px solid red;
-  padding: 1rem;
+  padding: 1.25rem;
 }
 
 .logo,
@@ -22,12 +22,16 @@
 .lastpost {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start;
 }
-
 
 .postcount {
   margin-left: auto;
+}
+
+.title {
+  gap: 0.5rem;
+}
+
+.lastpost {
+  gap: 0.25rem;
 }

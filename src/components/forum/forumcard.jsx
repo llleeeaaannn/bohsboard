@@ -21,7 +21,7 @@ const ForumCard = () => {
 
       <div className={styles.lastpost}>
         <Link to="/">Post Title</Link>
-        <div><span>by</span><Link to="/">User Name</Link></div>
+        <div><span>by </span><Link to="/">User Name</Link></div>
         <span>Mon Feb 1, 2024 9:43 pm</span>
       </div>
 
