@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
+import Forum from './components/forum/forum.jsx';
 
 export const AppContext = React.createContext();
 
@@ -9,18 +10,7 @@ function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
-      <div>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p>
-        Click on the Vite and React logos to learn more
-      </p>
+      <Forum />
     </>
   )
 }

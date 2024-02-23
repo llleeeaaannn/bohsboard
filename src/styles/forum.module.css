@@ -1,0 +1,33 @@
+/* Forum */
+
+/* ForumCard */
+.forumcard {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  grid-gap: 1.5rem;
+  border: 1px solid red;
+  padding: 1rem;
+}
+
+.logo,
+.postcount {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.title,
+.lastpost {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+
+.postcount {
+  margin-left: auto;
+}
